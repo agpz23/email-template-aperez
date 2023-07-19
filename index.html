@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS goes here -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!--your external CSS stylesheet goes here-->
+  <link rel="stylesheet" href="styles.css">
+  <title>Bootstrap Email Template</title>
+</head>
+<body>
+
+  <div class="container-fluid">
+    <div class="row w-100">
+
+        <!--First Column -->
+      <div class="col-sm-12 col-md-6 col-lg-3 bg-secondary">
+      <svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#1b1c1d}</style><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"/></svg>
+      <div class="offcanvas- d-flex flex-column align-items-center d-grid gap-5">
+      <button type="button" class="btn btn-primary btn-lg m-2 rounded-3">Compose Email</button>
+      <button type="button" class="btn btn-dark m-2 rounded-3">Inbox (10)</button>
+      <button type="button" class="btn btn-dark m-2 rounded-3">Drafts</button>
+      <button type="button" class="btn btn-dark m-2 rounded-3">Spam</button>
+      <button type="button" class="btn btn-dark m-2 rounded-3">Saved</button>
+      <button type="button" class="btn btn-dark m-2 rounded-3">Calendar</button>
+      <button type="button" class="btn btn-dark m-3 rounded-3">Trash</button>
+
+    </div>
+    </div>
+      
+     
+     <!-- Second Column -->
+      <div class="col-sm-12 col-md-6 col-lg-3 bg-light">
+        <form class="d-flex center-search-bar me-auto ms-auto">
+            <input class="form-control d-none d-sm-block 5 ms-lg-5 rounded-4 m-2" type="searchbar" placeholder="Search">
+            <button type="button" class="btn btn-secondary btn-sm m-2 rounded-2">Search</button>
+        </form>
+            
+        <!-- Inbox messages in second column-->
+        
+        <div class="row gap-4 h-100-grid row-cols-1 overflow-x-hidden">
+                  <div class="col mt-3 ">
+                    <div class="text-light bg-dark rounded-2 h-100 p-3 second-col-emails">
+                        <b> Facebook</b>  <br> Marc Anthony posted a new photo.
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="text-light bg-dark rounded-2 h-100  p-3 second-col-emails" id="inbox-1">
+                      <b> Gamer Cave </b> <br> New and upcoming games coming to pc and all consoles this year. 
+                    </div>
+                  </div>
+
+         <div class="col">
+                    <div class="text-light bg-dark rounded-2 h-100 p-3 second-col-emails">
+                      <b> Nike </b> <br> Save 25% on all new shoes and workout gear with coupon attached in email below.
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="text-light bg-dark rounded-2 h-100 p-3 second-col-emails">
+                      <b> Amaz0n Warehouse</b> <br> You've won Amazon's giveaway of $1000. Click link below:
+                    </div>
+                  </div>
+          <div class="col">
+                    <div class="text-light bg-dark rounded-2 h-100 p-3 second-col-emails">
+                      <b> Dutch Bros </b> <br> Happy birthday! Have a drink on us. Redeem free birthday drink any time this whole month. 
+                    </div>
+                    </div>
+                  
+
+        </div>
+      </div>
+        
+      
+     <!-- Third Column -->
+      <div class="col-sm-12 col-md-12 col-lg-6" id="col-3">
+        <div class="col-11 m-3 fs-6" >
+          <div class="col-11 m-3 fs-6" >
+                    <b> Gamer Cave </b> <br> New and upcoming games coming to PC and all consoles this year.
+          </div>
+                </div>
+       <div class="col-11 m-2 fs-6 justify-content-center" >
+            <b>PC Games: </b> <br> Mortal Kombat 1 <br> Fae Farm <br> Lies of P <br> Party Animals <br> Alone in the Dark
+                    </div>
+               <div class="col-11 m-2 fs-6" >
+                    <b> Xbox Games: </b> <br> Mortal Kombat 1 <br> The Crew Motorfest <br> Atlas Fallen <br> Payday 3 <br> Assassin's Creed Mirage</div>
+
+
+          
+
+      <div class="d-flex justify-content-center text-dark"> 
+        <textarea class=" w-75 fs-6 m-3" id="reply-text-area" placeholder="Respond here..."></textarea>
+        <button type="button" class="btn btn-primary btn-sm m-1 w-15 rounded-2">Send</button>
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
